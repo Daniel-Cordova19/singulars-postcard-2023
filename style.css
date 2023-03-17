@@ -13,7 +13,18 @@ main {
   margin-right: 20%;
   padding: 1rem;
 }
+.img{
+  
+background-image: url(fuego.svg);
+background-repeat:no-repeat;
+background-size : 10%;
+background-position: right;
 
+
+    
+
+
+}
 button {
   margin-left: 40%;
 }
