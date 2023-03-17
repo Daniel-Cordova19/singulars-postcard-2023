@@ -3,28 +3,34 @@
 body {
   background-color: black;
   font-family: "Anton", sans-serif;
-  overflow: hidden;
+  overflow: hidden; 
 }
 
 main {
   background-color: white;
   margin: 10%;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 40%;
+  margin-right: 30%;
   padding: 1rem;
 }
 .img{
   
-background-image: url(fuego.svg);
-background-repeat:no-repeat;
-background-size : 10%;
-background-position: right;
+  background-image: url("fuego.svg");
+  background-size: cover  ; /*para que la imagen cubra todo el fondo*/
+  background-repeat: no-repeat; /*para que no se repita la imagen*/
+  background-position: center center; /*posición centrada*/
+}
 
-
-    
-
+.imgcont{
+  
+  max-width: 80%;
+  float: top right;
 
 }
+
+  
+
+
 button {
   margin-left: 40%;
 }
@@ -43,6 +49,7 @@ p {
 }
 
 form {
-  width: 50%;
+  width: 45%;
   float: right;
+  
 }
